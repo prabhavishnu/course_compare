@@ -1,0 +1,49 @@
+{
+    "rows":[
+        {   "id":1,
+            "name":"Application Date",
+            "col_2":"25-June-21",
+            "col_3":"18-Jul-21",
+            "col_4":"25-Jun-21",
+            "col_5":"1-Jul-21",
+            "type": "text"
+
+        },
+        {
+            "id":2,
+            "name":"Check-in Date",
+            "col_2":"25-June-21",
+            "col_3":"18-Jul-21",
+            "col_4":"25-Jun-21",
+            "col_5":"1-Jul-21",
+            "type": "text"
+
+        },
+        {
+            "id":3,
+            "name":"Orientation Date",
+            "col_2":"25-June-21",
+            "col_3":"18-Jul-21",
+            "col_4":"25-Jun-21",
+            "col_5":"1-Jul-21",
+            "type": "text"
+
+        },
+        {
+            "id":4,
+            "name":"Class Start date",
+            "col_2":"25-June-21",
+            "col_3":"18-Jul-21",
+            "col_4":"25-Jun-21",
+            "col_5":"1-Jul-21",
+            "type": "text"
+
+        }
+       
+
+    ],
+    "columns": 5
+
+    
+   
+}

@@ -1,0 +1,99 @@
+{
+    "rows":[
+        {   "id":1,
+            "name":"Institution",
+            "col_2":"Wesley College",
+            "col_3":"Delaware State University",
+            "col_4":"University Of Delaware",
+            "col_5":"Goldey-Becom College",
+            "type": "text"
+        },
+        {
+            "id":2,
+            "name":"Type",
+            "col_2":"Public",
+            "col_3":"Private",
+            "col_4":"Private",
+            "col_5":"Private",
+            "type": "text"
+        },
+        {
+            "id":3,
+            "name":"Colleges",
+            "col_2":4,
+            "col_3":3,
+            "col_4":12,
+            "col_5":7,
+            "type": "text"
+
+        },
+        {
+            "id":4,
+            "name":"Campus",
+            "col_2":8,
+            "col_3":2,
+            "col_4":6,
+            "col_5":1,
+            "type": "text"
+
+        },
+        {
+            "id":5,
+            "name":"Ranking",
+            "col_2":"Top250",
+            "col_3":"Top400",
+            "col_4":"Top 250",
+            "col_5":"Top 250",
+            "type": "text"
+
+        },
+        {
+            "id":6,
+            "name":"Website",
+            "col_2":"link",            
+            "col_3":"link",
+            "col_4":"link",
+            "col_5":"link",
+            "type": "links"
+        },
+        {
+            "id":7,
+            "name":"Programs",
+            "col_2":12,
+            "col_3":18,
+            "col_4":9,
+            "col_5":12,
+            "type": "text"
+        },
+        {
+            "id":8,
+            "name":"Courses(Under Graduate)",
+            "col_2":81,
+            "col_3":76,
+            "col_4":48,
+            "col_5":69,
+            "type": "text"
+        },
+        {
+            "id":8,
+            "name":"Courses(Masters)",
+            "col_2":81,
+            "col_3":76,
+            "col_4":48,
+            "col_5":69,
+            "type": "text"
+
+        },
+        {
+            "id":8,
+            "name":"Courses(Doctrate)",
+            "col_2":81,
+            "col_3":76,
+            "col_4":48,
+            "col_5":69,
+            "type": "text"
+        }
+
+    ],
+    "columns": 5
+}

@@ -1,0 +1,109 @@
+{
+    "rows":[
+        {   "id":1,
+            "name":"Discpline",
+            "col_2":"Graduate",
+            "col_3":"Graduate",
+            "col_4":"Graduate",
+            "col_5":"Graduate",
+            "type": "text"
+
+        },
+        {
+            "id":2,
+            "name":"Program",
+            "col_2":"Chemical Engineering",
+            "col_3":"Chemical Engineering",
+            "col_4":"Chemical Engineering",
+            "col_5":"Chemical Engineering",
+            "type": "text"
+
+        },
+        {
+            "id":3,
+            "name":"Course",
+            "col_2":"Master of Science Chemical Engineering",
+            "col_3":"Master of Science Chemical Engineering",
+            "col_4":"Master of Science Chemical Engineering",
+            "col_5":"Master of Science Chemical Engineering",
+            "type": "text"
+
+        },
+        {
+            "id":4,
+            "name":"Duration",
+            "col_2":"24 months",
+            "col_3":"24 months",
+            "col_4":"24 months",
+            "col_5":"24 months",
+            "type": "text"
+
+        },
+        {
+            "id":5,
+            "name":"FT Study",
+            "col_2":"15 Years",
+            "col_3":"16 Years",
+            "col_4":"16 Years",
+            "col_5":"15 Years",
+            "type": "text"
+
+        },
+        {
+            "id":6,
+            "name":"Study Type",
+            "col_2":"Full time",            
+            "col_3":"Full time", 
+            "col_4":"Full time", 
+            "col_5":"Full time",
+            "type": "text"
+
+            
+
+        },
+        {
+            "id":7,
+            "name":"Backlogs Accepted*",
+            "col_2":"Yes",
+            "col_3":"Yes",
+            "col_4":"No",
+            "col_5":"Yes",
+            "type": "text"
+
+        },
+        {
+            "id":9,
+            "name":"Scholarship Available",
+            "col_2":"Yes",
+            "col_3":"Yes",
+            "col_4":"Yes",
+            "col_5":"Yes",
+            "type": "text"
+
+        },
+        {
+            "id":10,
+            "name":"Program Cost(Approx) ",
+            "col_2":"USD 25000",
+            "col_3":"USD 55000",
+            "col_4":"USD 40000",
+            "col_5":"USD 40000",
+            "type": "text"
+
+        },
+        {
+            "id":11,
+            "name":"Courses(Doctrate)",
+            "col_2":81,
+            "col_3":76,
+            "col_4":48,
+            "col_5":69,
+            "type": "text"
+
+        }
+
+    ],
+    "columns": 5
+    
+   
+}
