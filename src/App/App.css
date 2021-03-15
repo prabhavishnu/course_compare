@@ -17,14 +17,20 @@
   color: white;
 }
 
-.dropdown_app{
+/* .dropdown_app{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin: 50px 0;
   
+} */
+.Compare_Full_Page{
+  background-image: radial-gradient(circle, #013A67, #013A67, #011C49);}
+.Compare_Full_Page h1{
+color: white;
 }
+
 
 .App_Heading{
   margin:0;
@@ -36,3 +42,33 @@
   margin: 30px 0
 }
 
+.DataInput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border: solid 1px #282c34;
+  margin: 30px;
+  background-color: white;
+}
+.Data_List{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.Input_Section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.Input_field{
+  margin: 10px;
+}
+.Top_section{
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(circle, #013A67, #013A67, #011C49);
+}

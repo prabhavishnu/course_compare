@@ -13,122 +13,287 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-        <div className="App_Heading">
-          <h1>Compare Courses</h1>
-        </div>
-        <div className="dropdown dropdown_app">
-          <button
-            className="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Select Country
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">
-              India
-            </a>
-            <a class="dropdown-item" href="#">
-              Austrais
-            </a>
-            <a class="dropdown-item" href="#">
-              Canada
-            </a>
+      <div className="Compare_Full_Page">
+        <div className="Top_section">
+          <div className="App_Heading">
+            <h1>Compare Courses</h1>
+          </div>
+          <div className="Input_Section">
+            <div className="DataInput">
+              <h4>Add Courses to Compare</h4>
+              <div className="Data_List">
+                <input
+                  list="countries"
+                  name="countries"
+                  placeholder="Select Country"
+                  className="Input_field"
+                />
+                <datalist id="countries">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[4][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Discipline"
+                  name="Discipline"
+                  placeholder="Select Discipline"
+                  className="Input_field"
+                />
+                <datalist id="Discipline">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[5][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="course"
+                  name="course"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="course">
+                  {Array(tableData2.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData2.rows[1][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Campus"
+                  name="Campus"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="Campus">
+                  {Array(tableData1.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData1.rows[0][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+              </div>
+            </div>
+            <div className="DataInput">
+              <h4>Add Courses to Compare</h4>
+              <div className="Data_List">
+                <input
+                  list="countries"
+                  name="countries"
+                  placeholder="Select Country"
+                  className="Input_field"
+                />
+                <datalist id="countries">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[4][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Discipline"
+                  name="Discipline"
+                  placeholder="Select Discipline"
+                  className="Input_field"
+                />
+                <datalist id="Discipline">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[5][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="course"
+                  name="course"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="course">
+                  {Array(tableData2.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData2.rows[1][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Campus"
+                  name="Campus"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="Campus">
+                  {Array(tableData1.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData1.rows[0][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+              </div>
+            </div>
+            <div className="DataInput">
+              <h4>Add Courses to Compare</h4>
+              <div className="Data_List">
+                <input
+                  list="countries"
+                  name="countries"
+                  placeholder="Select Country"
+                  className="Input_field"
+                />
+                <datalist id="countries">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[4][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Discipline"
+                  name="Discipline"
+                  placeholder="Select Discipline"
+                  className="Input_field"
+                />
+                <datalist id="Discipline">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[5][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="course"
+                  name="course"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="course">
+                  {Array(tableData2.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData2.rows[1][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Campus"
+                  name="Campus"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="Campus">
+                  {Array(tableData1.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData1.rows[0][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+              </div>
+            </div>
+            <div className="DataInput">
+              <h4>Add Courses to Compare</h4>
+              <div className="Data_List">
+                <input
+                  list="countries"
+                  name="countries"
+                  placeholder="Select Country"
+                  className="Input_field"
+                />
+                <datalist id="countries">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[4][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Discipline"
+                  name="Discipline"
+                  placeholder="Select Discipline"
+                  className="Input_field"
+                />
+                <datalist id="Discipline">
+                  {Array(tableData6.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData6.rows[5][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="course"
+                  name="course"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="course">
+                  {Array(tableData2.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData2.rows[1][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+                <input
+                  list="Campus"
+                  name="Campus"
+                  placeholder="Select Course"
+                  className="Input_field"
+                />
+                <datalist id="Campus">
+                  {Array(tableData1.columns - 1)
+                    .fill()
+                    .map((array_element, index) => (
+                      <option value={tableData1.rows[0][`col_${index + 2}`]} />
+                    ))}
+                </datalist>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="dropdown dropdown_app">
-          <button
-            className="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Select Decipline
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">
-              Bachelor
-            </a>
-            <a class="dropdown-item" href="#">
-              Masters
-            </a>
-            <a class="dropdown-item" href="#">
-              Doctrate
-            </a>
-          </div>
-        </div>
-        <div className="dropdown dropdown_app">
-          <button
-            className="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Select Course
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">
-              Automobile Engineering
-            </a>
-            <a class="dropdown-item" href="#">
-              Biochemical Engineering
-            </a>
-            <a class="dropdown-item" href="#">
-              Chemical Engineering
-            </a>
-          </div>
-        </div>
-        <CustomizedTables tableData={tableData1} />
+        <div className="Second_half_page">
+          <CustomizedTables tableData={tableData1} />
 
-        <div className="app__table">
-          <div className="Table_Heading">
-            <h1>Courses</h1>
+          <div className="app__table">
+            <div className="Table_Heading">
+              <h1>Courses</h1>
+            </div>
+            <CustomizedTables tableData={tableData2} />
           </div>
-          <CustomizedTables tableData={tableData2} />
-        </div>
-        <div className="app__table">
-          <div className="Table_Heading">
-            <h1>Erexian Admits</h1>
+          <div className="app__table">
+            <div className="Table_Heading">
+              <h1>Erexian Admits</h1>
+            </div>
+            <CustomizedTables tableData={tableData3} />
           </div>
-          <CustomizedTables tableData={tableData3} />
-        </div>
-        <div className="app__table">
-          <div className="Table_Heading">
-            <h1>Test Requirements(English)</h1>
+          <div className="app__table">
+            <div className="Table_Heading">
+              <h1>Test Requirements(English)</h1>
+            </div>
+            <CustomizedTables tableData={tableData4} />
           </div>
-          <CustomizedTables tableData={tableData4} />
-        </div>
-        <div className="app__table">
-          <div className="Table_Heading">
-            <h1>Test Requirements(Aptitude)</h1>
+          <div className="app__table">
+            <div className="Table_Heading">
+              <h1>Test Requirements(Aptitude)</h1>
+            </div>
+            <CustomizedTables tableData={tableData5} />
           </div>
-          <CustomizedTables tableData={tableData5} />
-        </div>
-        <div className="app__table">
-          <div className="Table_Heading">
-            <h1>Key Dates 2021</h1>
+          <div className="app__table">
+            <div className="Table_Heading">
+              <h1>Key Dates 2021</h1>
+            </div>
+            <CustomizedTables tableData={tableData6} />
           </div>
-          <CustomizedTables tableData={tableData6} />
-        </div>
-        <div className="app__table">
-          <div className="Table_Heading">
-            <h1>Key Dates 2022</h1>
+          <div className="app__table">
+            <div className="Table_Heading">
+              <h1>Key Dates 2022</h1>
+            </div>
+            <CustomizedTables tableData={tableData6} />
           </div>
-          <CustomizedTables tableData={tableData6} />
-        </div>
-        <div className="app__table">
-          <div className="Table_Heading">
-            <h1>Key Dates 2023</h1>
+          <div className="app__table">
+            <div className="Table_Heading">
+              <h1>Key Dates 2023</h1>
+            </div>
+            <CustomizedTables tableData={tableData6} />
           </div>
-          <CustomizedTables tableData={tableData6} />
         </div>
       </div>
     );

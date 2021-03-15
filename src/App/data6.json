@@ -38,11 +38,30 @@
             "col_5":"1-Jul-21",
             "type": "text"
 
+        },
+        {
+            "id":5,
+            "name":"Countries",
+            "col_2":"India",
+            "col_3":"Australia",
+            "col_4":"USA",
+            "col_5":"Canada",
+            "type": "text"
+
+        },
+        {
+            "id":6,
+            "name":"Discipline",
+            "col_2":"Bachelors",
+            "col_3":"Masters",
+            "col_4":"Doctrate",
+            "col_5":"Diploma",
+            "type": "text" 
         }
        
 
     ],
-    "columns": 5
+    "columns": 6
 
     
    
